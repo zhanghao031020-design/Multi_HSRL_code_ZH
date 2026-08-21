@@ -1,0 +1,13 @@
+seed: 20260820
+n_truth: 2
+replicates: 1
+alpha_errors: [0.10, 0.30]
+multistart: 2
+radius_points: 96
+radius_min_um: 0.01
+radius_max_um: 15.0
+coverage_target: 0.90
+max_interval_factor: 10.0
+common_correlation: 0.10
+same_wavelength_correlation: 0.35
+model_mismatch: false

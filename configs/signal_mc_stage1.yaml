@@ -1,0 +1,17 @@
+seed: 20260821
+n_truth: 9
+replicates: 3
+signal_levels: [0.25, 0.50, 1.00, 2.00]
+multistart: 4
+radius_points: 512
+radius_min_um: 0.005
+radius_max_um: 20.0
+poisson: true
+gain_relative_error: 0.02
+laser_energy_relative_error: 0.01
+discriminator_relative_error: 0.02
+discriminator_cross_talk_relative_error: 0.02
+min_molecular_expected_counts: 20.0
+model_mismatch: true
+coverage_target: 0.90
+max_interval_factor: 10.0

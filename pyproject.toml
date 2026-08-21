@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tri-wavelength-hsrl-sim"
+version = "0.1.0"
+description = "Reproducible optical-level simulation for 1064 nm HSRL marginal-value studies."
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "miepython>=3.0",
+  "PyYAML>=6.0",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

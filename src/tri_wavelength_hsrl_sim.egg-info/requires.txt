@@ -1,0 +1,7 @@
+numpy>=2.0
+scipy>=1.13
+miepython>=3.0
+PyYAML>=6.0
+
+[dev]
+pytest>=8.0

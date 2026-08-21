@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: tri-wavelength-hsrl-sim
+Version: 0.1.0
+Summary: Reproducible optical-level simulation for 1064 nm HSRL marginal-value studies.
+Requires-Python: >=3.12
+Requires-Dist: numpy>=2.0
+Requires-Dist: scipy>=1.13
+Requires-Dist: miepython>=3.0
+Requires-Dist: PyYAML>=6.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
